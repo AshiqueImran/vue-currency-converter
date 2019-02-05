@@ -27,7 +27,7 @@ new Vue({
 				return 0; // if currencies is not empty it saves data and api req is not called
 			}
 
-			// if no local-Storage api will be called
+			// if no local-Storage, api will be called
 
 			axios.get("https://free.currencyconverterapi.com/api/v6/currencies")
 			.then(response=>{
